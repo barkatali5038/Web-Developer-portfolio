@@ -208,3 +208,11 @@ main section {
 }
 
 
+/* footer style start */
+
+footer{
+display: flex;
+background: #FFF8F3;
+padding: 130px 230px;
+margin-top: 130px ;
+}
