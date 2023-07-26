@@ -19,7 +19,17 @@ body {
     color: white;
     font-weight: 700;
     padding: 15px 35px;
+    margin-top: 0;
 }
+
+.section-title {
+
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
 
 /* nav related styles Start here */
 
@@ -27,12 +37,20 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav.title {
-    color: var(--dark-01, #181818);
+    color: #181818;
     font-size: 45px;
     font-weight: 800;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 /* note this > used for as a imidiate child and it work */
@@ -50,4 +68,56 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* Header related styles start */
+.header {
+    background: #FFF8F3;
+    background-image: url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .picture {
+    width: 584px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    /*  font-weight: 600; */
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.pragraph {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.banner-titile {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-content {
+    max-width: 585px;
+}
+
+/* Main section styles */
+
+/* about section styles */
+.about {
+    padding: 131px 179px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 230px;
 }
